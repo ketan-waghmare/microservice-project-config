@@ -1,3 +1,12 @@
 spring:
   application:
-    name:
+    name: Config-Dev
+
+eureka:
+  instance:
+    pref-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
